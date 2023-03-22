@@ -11,7 +11,7 @@ app.use(express.json());
 config()
 app.use('/api', router)
 
-const port = process.env.PORT || 5000;
+const port =  5000;
 app.get('/', (req, res) => {
     try {
         res.json('get câu hỏi')
