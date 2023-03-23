@@ -26,9 +26,9 @@ connect().then(() => {
             console.log('5000')
         })
     } catch (error) {
-        console.log('không kết nối với database được')
+        console.log(error)
     }
 
 }).catch(err => {
-    console.log('không kết nối với database được')
+    console.log(err)
 })
